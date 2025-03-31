@@ -12,38 +12,48 @@
             background: url('https://i.imgur.com/aPLuDmc.jpeg') no-repeat center center fixed;
             background-size: cover;
             color: white;
+            margin: 0;
         }
         .container {
-            max-width: 600px;
+            max-width: 90%;
             margin: auto;
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.8);
             padding: 20px;
             border-radius: 10px;
         }
         h2 {
             color: #007bff;
             font-weight: bold;
+            font-size: 1.5em;
         }
         label {
             color: #007bff;
             font-weight: bold;
+            display: block;
+            text-align: left;
+            margin-top: 10px;
         }
         select, input {
             display: block;
             width: 100%;
-            margin-top: 10px;
-            padding: 8px;
+            margin-top: 5px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1em;
             color: black;
         }
         button {
             background-color: #007bff;
             color: white;
-            padding: 10px;
+            padding: 12px;
             border: none;
             cursor: pointer;
-            margin-top: 10px;
+            margin-top: 15px;
             width: 100%;
             font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
         }
         button:hover {
             background-color: #0056b3;
